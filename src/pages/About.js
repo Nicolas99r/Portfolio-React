@@ -124,7 +124,7 @@ export default function About() {
           <div className="about__info__item">
             <h1 className="about__info__heading">My skills</h1>
             <AboutInfoItem
-              title="Lenguages"
+              title="Languages"
               items={["C++", "Python", "Javascript"]}
             />
             <AboutInfoItem
