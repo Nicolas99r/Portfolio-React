@@ -2,20 +2,90 @@ import React from 'react'
 import Button from './Button'
 import PText from './PText'
 import SectionTitle from './SectionTitle'
-import aboutImg from '../assets/yox2.png';
+/* import aboutImg from '../assets/yox2.png'; */
+import pcImg from '../assets/mypc1.jpg';
+import rainImg from '../assets/rain.jpg';
 import styled from 'styled-components';
 
 const AboutSectionStyle = styled.div`
   padding: 10rem 0;
   .container {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: flex-start;
     text-align: left;
   }
   .aboutSection__left, .aboutSection__right {
     flex: 1;
   }
+
+  .aboutSection__right {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .aboutSection__right:hover > .one {
+    animation: move 1s forwards;
+  }
+
+  .aboutSection__right img {
+    height: 60%;
+    width: 60%;
+    position: absolute;
+    object-fit: cover;
+    -webkit-box-shadow: 8px 8px 11px -9px #000000; 
+    box-shadow: 8px 8px 11px -9px #000000;
+    border: 2px solid #fff
+  }
+
+  .aboutSection__right .one {
+    top: 0;
+    right: 0;
+    z-index: 1;
+    animation: unmove 1s forwards;
+  }
+  .aboutSection__right .two {
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+  }
+
+  @keyframes move {
+    0% {
+        right: 0;
+        z-index: 1;
+    }
+    50% {
+        right: -25%;
+        z-index: 1;
+        transform: scale(1);
+    }
+    100% {
+        right: 0;
+        z-index: 10;
+        transform: scale(1.2);
+    }
+}
+
+@keyframes unmove {
+    0% {
+        right: 0;
+        z-index: 10;
+        transform: scale(1.2);
+    }
+    50% {
+        right: -25%;
+        z-index: 1;
+        transform: scale(1);
+    }
+    100% {
+        right: 0;
+        z-index: 1;
+    }
+}
+
   .section-title {
     text-align: left;
   }
@@ -48,8 +118,10 @@ const AboutSectionStyle = styled.div`
       width: 100%;
     }
     .aboutSection__right {
-      margin-top: 3rem;
+      margin-top: 5rem;
+      min-height: 50vh;
     }
+    
     .section-title {
       text-align: center;
     }
@@ -90,7 +162,8 @@ export default function AboutSection() {
                 </div>
             </div>
             <div className='aboutSection__right'>
-              <img src={aboutImg} alt=""/>
+              <img className='one' src={pcImg} alt=""/>
+              <img className='two' src={rainImg} alt=""/>
             </div>
         </div>
     </AboutSectionStyle>

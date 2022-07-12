@@ -29,7 +29,7 @@ const ItemStyles = styled.div`
         border-radius: 12px;
         border: 3px solid #55575a;
         margin-top: 2rem;
-        filter: grayscale(100%)
+        /* filter: grayscale(100%) */
     }
 `
 

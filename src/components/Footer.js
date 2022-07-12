@@ -45,9 +45,8 @@ export default function Footer() {
         <div className='container'>
             <div className='footer__col1'>
                 <h1 className='footer__col1__title'>Nicolás Reyes</h1>
-                <PText>
-                    Holaa! Mi nombre es Frailejón Ernesto Pérez, te quiero saludar. No me conoces, pero yo a tí sí, si. Yo soy tu amigo, tu amigo Frailejón Ernesto Pérez.
-                </PText>
+                <PText>"No one knows what the outcome will be. So, choose whatever you'll regret the least."</PText>
+                <PText>- Levi Ackerman -</PText>
             </div>
             <div className='footer__col2'>
                 <FooterCol 
@@ -86,7 +85,7 @@ export default function Footer() {
                         },
                         {
                             title: 'LinkedIn',
-                            path: 'https://www.linkedin.com/',
+                            path: 'https://www.linkedin.com/in/nicolás-andrés-reyes-prado-1454b21b4',
                         },
                         {
                             title: 'Github',

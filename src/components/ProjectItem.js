@@ -13,12 +13,12 @@ const ProjectItemStyles = styled.div`
         border: 3px solid #55575a;
         img {
             height: 100%;
-            filter: grayscale(100%) brightness(0.8);
+            /* filter: grayscale(100%) brightness(0.8); */
             transition: all 0.3s ease;
             cursor: pointer;
         }
         img:hover {
-            filter: grayscale(0%);
+            /* filter: grayscale(0%); */
             transform: scale(1.1);
         }
     }

@@ -56,7 +56,7 @@ export default function ContactSection() {
             <div className="left">
                 <ContactInfoItem
                     icon={<MdLocalPhone/>}
-                    text='(+57) prank number'
+                    text='(+57) Wowow chill...'
                 />
                 <ContactInfoItem
                     icon={<MdEmail/>}
