@@ -85,7 +85,7 @@ export default function Footer() {
                         },
                         {
                             title: 'LinkedIn',
-                            path: 'https://www.linkedin.com/in/nicolás-andrés-reyes-prado-1454b21b4',
+                            path: 'https://www.linkedin.com/in/nico-reyes',
                         },
                         {
                             title: 'Github',

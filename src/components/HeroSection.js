@@ -176,7 +176,7 @@ export default function HeroSection() {
                                 <a href='https://www.instagram.com/nicolas99r/' target="_blank" rel='noreferrer'>IG</a>
                             </li>
                             <li>
-                                <a href='https://www.linkedin.com/in/nicolás-andrés-reyes-prado-1454b21b4' target="_blank" rel='noreferrer'>LI</a>
+                                <a href='https://www.linkedin.com/in/nico-reyes' target="_blank" rel='noreferrer'>LI</a>
                             </li>
                         </ul>
                     </div>
