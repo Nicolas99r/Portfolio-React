@@ -11,22 +11,16 @@ import robotImg from '../Data/img/modelado-robotcito.jpg'
 import personajeImg from '../Data/img/modelado-personaje.jpg'
 import contraImg from '../Data/img/contra.png'
 import julyImg from '../Data/img/ijuly.png'
+import cajiImg from '../Data/img/cajicarros.png'
 
 const projects = [
   {
     id: uuidv4(),
-    name: 'Mathly',
+    name: 'Cajicarros',
     desc:
-      'A Calculator App prototype, based in Mathlab and Mapple calculator.',
-    img: mathlyImg,
-    link: 'https://www.canva.com/design/DAFBqfilByA/IScazU3jvm3RQCeYn9PWvQ/view?utm_content=DAFBqfilByA&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent'
-  },
-  {
-    id: uuidv4(),
-    name: 'Portfolio HTML/CSS',
-    desc:
-      'My original Portfolio, created only with HTML and CSS',
-    img: portaImg,
+      'An educational videogame for children aged 7 to 12 to learn about traffic rules.',
+    img: cajiImg,
+    link: 'https://cajicarros.netlify.app/'
   },
   {
     id: uuidv4(),
@@ -50,14 +44,6 @@ const projects = [
     desc:
       '3D model of a Reanult 4',
     img: pichiImg,
-  },
-  {
-    id: uuidv4(),
-    name: 'Timer',
-    desc:
-      'A simple App that shows how many time has passed since I created it.',
-    img: tiempoImg,
-    link: 'https://codepen.io/Nickr/pen/abpwXBa',
   },
   {
     id: uuidv4(),
@@ -103,6 +89,29 @@ const projects = [
       'A parody to iCarly TV show',
     img: julyImg,
     link: 'https://youtu.be/A9pfN9q1ae4',
+  },
+  {
+    id: uuidv4(),
+    name: 'Mathly',
+    desc:
+      'A Calculator App prototype, based in Mathlab and Mapple calculator.',
+    img: mathlyImg,
+    link: 'https://www.canva.com/design/DAFBqfilByA/IScazU3jvm3RQCeYn9PWvQ/view?utm_content=DAFBqfilByA&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent'
+  },
+  {
+    id: uuidv4(),
+    name: 'Portfolio HTML/CSS',
+    desc:
+      'My original Portfolio, created only with HTML and CSS',
+    img: portaImg,
+  },
+  {
+    id: uuidv4(),
+    name: 'Timer',
+    desc:
+      'A simple App that shows how many time has passed since I created it.',
+    img: tiempoImg,
+    link: 'https://codepen.io/Nickr/pen/abpwXBa',
   },
 ];
 

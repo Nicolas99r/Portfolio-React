@@ -151,10 +151,10 @@ export default function AboutSection() {
                   heading='About me'
                 />
                 <PText>
-                I'm a Multimedia Engineer student based in Bogotá, Colombia. I'm a web developer, but i also know about animation and modeling.
+                I'm a Multimedia Engineering student based in Bogotá, Colombia, with a strong passion for web development, as well as animation and modeling.
                 </PText>
                 <PText>
-                I've been learning all of this since 2019 and i'd like to help you to transform your ideas into a useful and innovative product.
+                I have been acquiring knowledge and skills in these areas since 2019, and I'm eager to help you bring your ideas to life with innovative and useful products.
                 </PText>
                 <div className='aboutSection__buttons'>
                   <Button btnLink='/projects' btnText='Works'/>

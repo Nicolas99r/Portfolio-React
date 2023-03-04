@@ -85,18 +85,10 @@ export default function About() {
             <h2 className="about__heading">Multimedia Engineer</h2>
             <div className="about__info">
               <PText>
-                I'm a student. I've learned web development, design, image
-                processing, programming, animation, render, modeling, and many
-                others. However, I consider myself a FrontEnd developer.
-                <br />
-                <br />
-                Since I started in this world, my goal has been learned as much
-                as i can. Getting my ideas into the real world and trying to
-                help to develop a better world for everyone.
-                <br />
-                <br />
-                Secondly, I love to watch movies and series, play the guitar
-                with my band, and hangout with friends and family.
+              I am a tenth-semester student of Multimedia Engineering with experience in web development, design, image processing, programming, animation, render, modeling, and many other related areas. My goal has always been to learn as much as I can and bring my ideas to life, contributing to the development of a better world for everyone.
+              <br />
+              <br />
+              Apart from my work, I enjoy spending my free time watching movies and series, playing the guitar with my band, and hanging out with friends and family.
               </PText>
             </div>
             <Button btnText="Download CV" btnLink="#"></Button>
@@ -125,13 +117,13 @@ export default function About() {
             <h1 className="about__info__heading">My skills</h1>
             <AboutInfoItem
               title="Languages"
-              items={["C++", "Python", "Javascript"]}
+              items={["Javascript", "C# (Unity)"]}
             />
             <AboutInfoItem
               title="FrontEnd"
-              items={["HTML", "CSS", "Javascript", "REACT"]}
+              items={["HTML", "CSS", "Javascript", "ReactJS"]}
             />
-            <AboutInfoItem title="BackEnd" items={["PHP", "Firebase"]} />
+            <AboutInfoItem title="BackEnd" items={["MySQL", "PHP"]} />
             <AboutInfoItem
               title="Design"
               items={[
@@ -142,7 +134,7 @@ export default function About() {
                 "Adobe XD",
               ]}
             />
-            <AboutInfoItem title="3D" items={["Autodesk Maya", "Blender"]} />
+            <AboutInfoItem title="3D" items={["Autodesk Maya"]} />
           </div>
           <div className="about__info__item">
             <h1 className="about__info__heading">My Experience</h1>
@@ -154,7 +146,7 @@ export default function About() {
               title="2020-2021"
               items={["Web E-commerce Dev at Bylinch"]}
             />
-            <AboutInfoItem title="2021-2022" items={["Mobile App Designer"]} />
+            <AboutInfoItem title="2021-2022" items={["Educational Videogame 'Cajicarros' Development"]} />
             <AboutInfoItem title="∞" items={["Always learning"]} />
           </div>
         </div>
